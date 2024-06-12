@@ -62,7 +62,7 @@
         rust-analyzer = {
           enable = true;
           installCargo = true;
-          installRustc = true;
+          installRustc = false;
           settings = {
             checkOnSave = true;
             check = {
