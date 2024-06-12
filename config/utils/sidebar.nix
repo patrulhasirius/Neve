@@ -21,11 +21,16 @@
         initial_width = 32,
         hide_statusline = false,
         update_interval = 1000,
-        sections = { "git", "containers" },
+        sections = { "files", "git", "containers" },
         section_separator = {"", "-----", ""},
         section_title_separator = {""},
         containers = {
             attach_shell = "/bin/sh", show_all = true, interval = 5000,
+        },
+        files = {
+          icon = "",
+          show_hidden = false,
+          ignored_paths = {"%.git$"}
         },
         datetime = { format = "%a %b %d, %H:%M", clocks = { { name = "local" } } },
         todos = { ignored_paths = {} },
