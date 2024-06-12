@@ -29,7 +29,7 @@
         },
         files = {
           icon = "",
-          show_hidden = false,
+          show_hidden = true,
           ignored_paths = {"%.git$"}
         },
         datetime = { format = "%a %b %d, %H:%M", clocks = { { name = "local" } } },
