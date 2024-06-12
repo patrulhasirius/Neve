@@ -75,7 +75,7 @@
       scrolloff = 8;
 
       # Place a column line
-      colorcolumn = "80";
+      colorcolumn = "100";
 
       # Reduce which-key timeout to 10ms
       timeoutlen = 10;
